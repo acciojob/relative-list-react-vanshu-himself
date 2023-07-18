@@ -4,17 +4,17 @@ const App = () => {
   return (
     <div id="main">
                {/* Do not remove the main div */}
-             <ol style={{ key:"relativeList"}} >
-              <li style={{ key:"relativeListItem1"}}>
+             <ol id="relativeList" style={{ key:"relativeList"}} >
+              <li id="relativeListItem1" style={{ key:"relativeListItem1"}}>
                 bua ji
               </li>
-              <li style={{ key:"relativeListItem2"}}>
+              <li id="relativeListItem2" style={{ key:"relativeListItem2"}}>
      fufa ji
 </li>
-<li style={{ key:"relativeListItem3"}}>
+<li id="relativeListItem3" style={{ key:"relativeListItem3"}}>
  taya ji
 </li>
-<li style={{ key:"relativeListItem4"}}>
+<li id=" relativeListItem4" style={{ key:"relativeListItem4"}}>
 papa ji
 </li>
               </ol>
